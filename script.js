@@ -11,16 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initScrollProgress();
 });
 
-// Mobile Navigation Toggle
-function initNavigation() {
-    const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.nav-menu');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    hamburger.addEventListener('click', function() {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
 
     // Close mobile menu when clicking on a link
     navLinks.forEach(link => {
