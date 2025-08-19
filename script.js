@@ -19,6 +19,8 @@ function initNavigation() {
     const navLinks = document.querySelectorAll('.nav-link');
 
     hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
     });
 
 
