@@ -20,14 +20,14 @@
     "modern",
     "web-development"
   ],
-  "author": "Your Name",
+  "author": " Bereket Gezhagne",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/personal-portfolio-website.git"
+    "url": "https://github.com/Bereket12-G/personal-portfolio-website.git"
   },
   "bugs": {
     "url": "https://github.com/yourusername/personal-portfolio-website/issues"
